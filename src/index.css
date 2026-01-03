@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+.limelight-regular {
+  font-family: "Limelight", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.inter-regular {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.inter-medium {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+.inter-semibold {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+.inter-bold {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+@theme {
+  --font-sans: "Inter", sans-serif;
+  --font-heading: "Limelight", sans-serif;
+
+  --color-blue-100: #5a5880;
+  --color-blue-50: #cbcbe7;
+  --color-off-white: #fefbe8;
+  --color-green-100: #acbd6f;
+  --color-orange-100: #f16f33;
+  --color-orange-50: #fce1aa;
+  --color-black-80: #1a1a18;
+}
