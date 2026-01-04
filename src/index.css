@@ -1,5 +1,7 @@
 @import "tailwindcss";
 
+@custom-variant dark (&:where(.dark, .dark *));
+
 .limelight-regular {
   font-family: "Limelight", sans-serif;
   font-weight: 400;

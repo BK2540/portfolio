@@ -7,6 +7,15 @@
     "types": ["node"],
     "skipLibCheck": true,
 
+    "baseUrl": "src",
+    "paths": {
+      "@contexts/*": ["contexts/*"],
+      "@components/*": ["components/*"],
+      "@pages/*": ["pages/*"],
+      "@layouts/*": ["layouts/*"],
+      "@utils/*": ["utils/*"]
+    },
+
     /* Bundler mode */
     "moduleResolution": "bundler",
     "allowImportingTsExtensions": true,
