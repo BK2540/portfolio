@@ -5,8 +5,8 @@ import { skillList, ToolList } from "@utils/index";
 
 const About = () => {
   return (
-    <div className="w-full h-full flex flex-col items-center py-10 justify-center ml-20 max-w-360">
-      <div className="relative ">
+    <div className="w-full flex flex-col items-center justify-center  2xl:max-w-360">
+      <div className="relative  mt-6">
         <p className="font-heading text-5xl lg:text-7xl text-orange-50 uppercase">
           About
         </p>
@@ -27,7 +27,7 @@ const About = () => {
       </div>
 
       <div className="w-full flex flex-col lg:flex-row gap-10 justify-center items-center mt-20 h-full">
-        <div className="flex-1  gap-6 flex flex-col items-start h-full">
+        <div className="flex-1 gap-4  lg:gap-6 flex flex-col items-start justify-start  w-full h-full">
           <span
             className="text-[20px] dark:text-off-white text-black-80 font-normal max-w-105
 leading-relaxed font-heading"
@@ -58,7 +58,7 @@ leading-relaxed"
             Resume
           </motion.button>
         </div>
-        <div className="flex-1  gap-6 flex flex-col items-start h-full">
+        <div className="flex-1 gap-4  lg:gap-6 flex flex-col items-start h-full">
           <div>
             <p className="text-black-80 dark:text-off-white font-sans text-xl font-semibold">
               My Stack

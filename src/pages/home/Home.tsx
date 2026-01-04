@@ -4,7 +4,7 @@ import { menuList } from "@utils/index";
 
 const Home = () => {
   return (
-    <div className="w-full flex flex-col md:flex-row gap-6 h-full max-w-360 ml-20">
+    <div className="w-full flex flex-col md:flex-row gap-6 h-full 2xl:max-w-360">
       <div className="flex flex-col flex-1 justify-center items-start gap-6 md:gap-20">
         <div className=" w-full flex flex-col justify-center items-start gap-2">
           <p className="font-sans font-thin italic text-2xl lg:text-[32px] text-black-80 dark:text-off-white p-0">
