@@ -27,7 +27,7 @@ const Sidebar = () => {
         )}
 
         {/* Divider */}
-        <div className="w-0.5 h-10 bg-off-white" />
+        <div className="w-0.5 h-10 bg-black-80 dark:bg-off-white" />
 
         {/* Other menus */}
         {inactiveMenus.map((menu) => (
