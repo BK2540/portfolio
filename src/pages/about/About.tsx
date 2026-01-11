@@ -5,7 +5,7 @@ import { skillList, ToolList } from "@utils/index";
 
 const About = () => {
   return (
-    <div className="w-full flex flex-col items-center justify-center  2xl:max-w-360">
+    <div className="w-full flex flex-col items-center justify-center  2xl:max-w-360  mt-10">
       <div className="relative  mt-6">
         <p className="font-heading text-5xl lg:text-7xl text-orange-50 uppercase">
           About

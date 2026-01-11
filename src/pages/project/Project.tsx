@@ -10,7 +10,7 @@ function Project() {
   const [onHover, setOnHover] = useState(false);
 
   return (
-    <div className="w-full h-full flex flex-col items-center py-10 justify-start  2xl:max-w-360">
+    <div className="w-full h-full flex flex-col items-center mt-10 pb-10 justify-start  2xl:max-w-360">
       <div className="relative">
         <p className="font-heading text-4xl lg:text-7xl text-green-100 uppercase">
           Project
