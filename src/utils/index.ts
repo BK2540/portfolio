@@ -18,3 +18,8 @@ export const skillList = [
 ];
 
 export const ToolList = ["Git", "Github", "Gitlab", "Figma", "Postman", "Jira"];
+
+export const ContactList = [
+  { label: "Email", contact: "Nuttida.nualnooch@gmail.com" },
+  { label: "Telephone", contact: "+6693-031-89827" },
+];
