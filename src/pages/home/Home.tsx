@@ -21,7 +21,9 @@ const Home = () => {
         <ThemeButton />
       </div>
 
-      <div className="flex-1 w-full h-full flex flex-col justify-center items-start gap-10">
+      <div
+        className={`flex-1 w-full h-full flex flex-col justify-center items-start gap-10 pl-10 lg:pl-0`}
+      >
         {menuList.map((menu) => (
           <Menu
             key={menu.name}
