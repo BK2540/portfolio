@@ -1,73 +1,100 @@
-# React + TypeScript + Vite
+# 👋 Portfolio – Frontend Developer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to my personal portfolio.  
+This website showcases my background, skills, and selected work as a **Frontend Developer**, with a strong focus on **clean UI, responsiveness, and modern React-based development**.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🔗 Live Preview
 
-## React Compiler
+👉 **Portfolio Website:** [Your Portfolio URL Here]
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 📄 Pages Overview
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+### 🏠 Home
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+- Clear introduction and personal branding
+- Quick navigation to key sections
+- Designed to give recruiters an immediate overview
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+### 👤 About
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+- Professional summary
+- **Downloadable resume (CV)** attached
+- Overview of skills, tools, and development approach
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+### 💼 Projects
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+- Selected work that demonstrates real-world frontend skills
+- Currently featuring **1 highlighted project**:
+  - **NotePal** (details below)
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+### 📬 Contact
+
+- Simple contact section for easy communication
+- Designed for quick recruiter outreach
+
+---
+
+## ⭐ Featured Project
+
+### 📝 NotePal
+
+A modern daily note-taking application that allows users to:
+
+- Create and manage **daily to-do lists**
+- Write personal **notes**
+- Track **daily mood**
+
+**Key highlights:**
+
+- Clean and minimal UI
+- Responsive design (mobile & desktop)
+- Smooth animations and interactions
+- Focus on usability and clarity
+
+🔗 **Live Demo:** https://notepals.vercel.app  
+🔗 **Source Code:** https://github.com/BK2540/notepals
+
+---
+
+## 🛠 Tech Stack
+
+- **React.js**
+- **Tailwind CSS**
+- **Framer Motion**
+- **JavaScript (ES6+)**
+- **Responsive Design (Mobile-first)**
+
+---
+
+## 🎯 Purpose of This Portfolio
+
+This portfolio is designed to:
+
+- Demonstrate **frontend development skills**
+- Showcase **real project experience**
+- Highlight **UI/UX awareness**
+- Provide recruiters with a clear and fast evaluation path
+
+---
+
+## 📄 Resume
+
+My resume is available in the **About** section of the portfolio and can be downloaded directly.
+
+---
+
+## 📫 Contact
+
+If you’re interested in working together or would like to learn more:
+
+- GitHub: https://github.com/BK2540
+- Portfolio: [Your Portfolio URL]
+- Contact form available on the website
+
+---
+
+Thank you for taking the time to review my work.
