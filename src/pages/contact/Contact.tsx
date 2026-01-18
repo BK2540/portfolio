@@ -169,7 +169,7 @@ const Contact = () => {
             Message
           </p>
           <textarea
-            name="message"
+            name="messenge"
             required
             className="w-full min-h-25 border-b border-blue-50 focus:outline-none text-black-80 dark:text-off-white"
           />
