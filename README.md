@@ -7,7 +7,7 @@ This website showcases my background, skills, and selected work as a **Frontend 
 
 ## 🔗 Live Preview
 
-👉 **Portfolio Website:** [Your Portfolio URL Here]
+👉 **Portfolio Website:** https://nuttida-portfolio.netlify.app/
 
 ---
 
