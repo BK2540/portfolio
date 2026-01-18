@@ -53,7 +53,7 @@ const Contact = () => {
   };
 
   return (
-    <div className="w-full h-full flex flex-col items-center mt-10 pb-10 justify-start  2xl:max-w-360">
+    <div className="w-full flex flex-col items-center mt-10 pb-10 justify-start  2xl:max-w-360 no-scrollbar">
       <div className="relative">
         <p className="font-heading text-4xl lg:text-[96px] text-blue-50 uppercase">
           Contact
@@ -95,26 +95,47 @@ const Contact = () => {
         <div className="flex-1 flex flex-col gap-6 items-start">
           <div className="flex flex-col gap-4">
             <p className="text-black-80 dark:text-off-white text-base font-bold">
+              Email:
+            </p>
+            <p className="text-black-80 dark:text-off-white text-base font-light italic">
+              Nuttida.nualnooch@gmail.com
+            </p>
+          </div>
+          <div className="flex flex-col gap-4">
+            <p className="text-black-80 dark:text-off-white text-base font-bold">
               Telephone:
             </p>
             <p className="text-black-80 dark:text-off-white text-base font-light italic">
               +6693-031-8927
             </p>
           </div>
+
           <div className="flex gap-6 items-center mt-10 lg:mt-20">
             <motion.button
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.87 }}
               className="text-black-80 dark:text-off-white font-light hover:italic hover:border-b hover:border-blue-50 cursor-pointer"
             >
-              LinkedIn
+              <a
+                href="https://www.linkedin.com/in/nuttida-nualnooch-191932265"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                LinkedIn
+              </a>
             </motion.button>
             <motion.button
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.87 }}
               className="text-black-80 dark:text-off-white font-light hover:italic hover:border-b hover:border-blue-50 cursor-pointer"
             >
-              Github
+              <a
+                href="https://github.com/BK2540"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Github
+              </a>
             </motion.button>
           </div>
         </div>

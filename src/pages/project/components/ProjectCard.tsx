@@ -2,27 +2,26 @@ import * as motion from "motion/react-client";
 
 interface CardProps {
   projectImg: string;
-  width?: number;
-  height?: number;
   rounded?: boolean;
   canClick?: boolean;
 }
 
-const ProjectCard = ({
-  projectImg,
-  width = 579,
-  height = 381,
-  rounded = false,
-  canClick,
-}: CardProps) => {
+const ProjectCard = ({ projectImg, rounded = false, canClick }: CardProps) => {
   return (
     <motion.div
       whileHover={{ scale: canClick ? 1.02 : 1 }}
       transition={{ duration: canClick ? 0.5 : 1 }}
-      className={`${
-        rounded ? "rounded-3xl" : "rounded-tl-3xl rounded-tr-3xl"
-      } bg-black-70 w-full h-30 md:h-75 p-4 flex flex-col gap-2 mt-4 lg:mt-10 overflow-hidden`}
-      style={{ width: width, height: height }}
+      className={`
+        bg-black-70
+        w-full
+        max-w-225
+        aspect-16/10
+        p-4
+        mt-4 lg:mt-10
+        flex flex-col gap-2
+        overflow-hidden
+        ${rounded ? "rounded-3xl" : "rounded-tl-3xl rounded-tr-3xl"}
+      `}
     >
       <div className="flex gap-1 items-center">
         <div className="w-3 h-3 rounded-full bg-red-400" />

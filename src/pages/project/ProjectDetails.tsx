@@ -1,36 +1,34 @@
 import { NotepalStack } from "@utils/projects";
 import ProjectCard from "./components/ProjectCard";
 import NoteUI from "@assets/Note.png";
-
+import * as motion from "motion/react-client";
 const ProjectDetails = () => {
-  const goToGithub = () => {
-    window.location.href = "https://github.com/BK2540/notepals";
-  };
-
-  const gotoNotepal = () => {
-    window.location.href = "https://notepals.vercel.app";
-  };
-
   return (
-    <div className="mt-10">
+    <div className="mt-10 flex flex-col items-center ">
       <h1 className="font-heading text-green-100 font-bold text-7xl">
         NotePal
       </h1>
-      <div className="flex lg:flex-row flex-col gap-6">
-        <div className="flex-1 w-144.75 flex flex-col gap-6">
+      <div className="flex flex-col gap-10 items-center max-w-195">
+        <div className="flex-1 w-75 md:w-144.75 flex flex-col gap-6">
           <ProjectCard projectImg={NoteUI} rounded />
-          <div className="flex gap-4 items-center justify-center ">
-            <button
-              onClick={gotoNotepal}
-              className="bg-green-100 rounded-full h-fit px-6 py-2 text-off-white"
-            >
-              Preview
+          <div className="flex gap-4 items-center justify-center">
+            <button className="bg-green-100 rounded-full h-fit px-6 py-2 text-off-white">
+              <a
+                href="https://notepals.vercel.app"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Preview
+              </a>
             </button>
-            <button
-              onClick={goToGithub}
-              className="border border-green-100 rounded-full h-fit px-6 py-2 text-green-100"
-            >
-              Github
+            <button className="border border-green-100 rounded-full h-fit px-6 py-2 text-green-100">
+              <a
+                href="https://github.com/BK2540/notepals"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Github
+              </a>
             </button>
           </div>
         </div>
@@ -50,12 +48,17 @@ const ProjectDetails = () => {
             </p>
             <div className="grid grid-cols-3 gap-4">
               {NotepalStack.map((stack, index) => (
-                <p
-                  className="text-black-80 dark:text-off-white text-base wrap-break-word"
+                <motion.p
+                  initial={{ opacity: 0, scale: 0.8 }}
+                  animate={{ opacity: 1, scale: 1 }}
+                  transition={{
+                    duration: 0.5 * index,
+                  }}
+                  className="text-black-80 dark:text-off-white text-base wrap-break-word border border-green-100 dark:border-green-50 rounded-xl py-4 px-4 flex justify-center items-center"
                   key={index}
                 >
                   {stack}
-                </p>
+                </motion.p>
               ))}
             </div>
           </div>

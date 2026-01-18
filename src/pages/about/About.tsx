@@ -2,8 +2,14 @@ import * as motion from "motion/react-client";
 import Star from "@assets/ic-star-octagon.svg";
 import StarRoundedIcon from "@mui/icons-material/StarRounded";
 import { skillList, ToolList } from "@utils/index";
+import Resume from "@assets/resume.pdf";
 
 const About = () => {
+  const openPdf = () => {
+    window.open(Resume, "_blank", "noopener,noreferrer");
+    console.log("click");
+  };
+
   return (
     <div className="w-full flex flex-col items-center justify-center  2xl:max-w-360  mt-10">
       <div className="relative  mt-6">
@@ -54,6 +60,7 @@ leading-relaxed"
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.85 }}
             className="mt-10 text-black-80 dark:text-off-white border border-orange-50 rounded-2xl px-4 py-2 w-fit hover:cursor-pointer"
+            onClick={openPdf}
           >
             Resume
           </motion.button>

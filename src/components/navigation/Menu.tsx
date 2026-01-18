@@ -20,7 +20,7 @@ const Menu = ({ menu, path, color }: MenuProps) => {
       onMouseLeave={() => setOnHover(false)}
     >
       <Link to={path}>
-        <p className="font-heading text-[40px] lg:text-[84px] text-black-80 dark:text-off-white uppercase">
+        <p className="font-heading text-[24px] md:text-[40px] lg:text-[84px] text-black-80 dark:text-off-white uppercase">
           {menu}
         </p>
       </Link>
