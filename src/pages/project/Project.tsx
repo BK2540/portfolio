@@ -41,7 +41,7 @@ function Project() {
           className="text-[24px] dark:text-off-white text-black-80 font-normal text-right
 leading-relaxed font-heading"
         >
-          NotePals
+          NotePal
         </p>
 
         <motion.div

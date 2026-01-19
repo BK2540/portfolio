@@ -11,7 +11,7 @@ const Home = () => {
             Hello,
           </p>
           <p className="font-sans font-thin italic text-2xl lg:text-[32px] text-black-80 dark:text-off-white p-0">
-            I'm nuttida Nualnooch
+            I'm Nuttida Nualnooch
           </p>
           <p className="font-sans font-thin italic text-[16px] text-black-80 dark:text-off-white">
             A front-end developer, who passionate about bringing idea to life

@@ -17,7 +17,6 @@ This website showcases my background, skills, and selected work as a **Frontend 
 
 - Clear introduction and personal branding
 - Quick navigation to key sections
-- Designed to give recruiters an immediate overview
 
 ### 👤 About
 
@@ -34,7 +33,6 @@ This website showcases my background, skills, and selected work as a **Frontend 
 ### 📬 Contact
 
 - Simple contact section for easy communication
-- Designed for quick recruiter outreach
 
 ---
 
@@ -92,7 +90,7 @@ My resume is available in the **About** section of the portfolio and can be down
 If you’re interested in working together or would like to learn more:
 
 - GitHub: https://github.com/BK2540
-- Portfolio: [Your Portfolio URL]
+- Portfolio: https://nuttida-portfolio.netlify.app/
 - Contact form available on the website
 
 ---
