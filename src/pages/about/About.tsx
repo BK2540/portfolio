@@ -2,12 +2,11 @@ import * as motion from "motion/react-client";
 import Star from "@assets/ic-star-octagon.svg";
 import StarRoundedIcon from "@mui/icons-material/StarRounded";
 import { skillList, ToolList } from "@utils/index";
-import Resume from "@assets/resume.pdf";
+import Resume from "@assets/Nuttida_resume.pdf";
 
 const About = () => {
   const openPdf = () => {
     window.open(Resume, "_blank", "noopener,noreferrer");
-    console.log("click");
   };
 
   return (
